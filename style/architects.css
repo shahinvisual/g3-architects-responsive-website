@@ -112,6 +112,27 @@ color: #424242;
 #quick-list{
     font-weight: 500;
 }
+
+/* feature section title  */
+.features{
+    gap: 140px;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding: 21px;
+}
+.feature-card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /* some facts related style  */
 .facts-container{
     display: grid;
