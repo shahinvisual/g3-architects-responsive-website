@@ -133,6 +133,20 @@ color: #424242;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+#experience-badge{
+    padding: 45px 42px;
+    font-weight: 500px;
+    font-size: 1.5rem;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.featured-architect img{
+    width: 100%;
+}
 /* some facts related style  */
 .facts-container{
     display: grid;
@@ -181,6 +195,7 @@ color: #424242;
 @media screen and (max-width: 576px){
     .navbar,
     .nav-links,
+    .features,
     .teams{
         flex-direction: column;
     }
@@ -197,6 +212,10 @@ color: #424242;
         justify-items: center;
     }
     .our-features{
+        margin-left: 20px;
+    }
+    #experience-badge{
+        margin-top: 20px;
         margin-left: 20px;
     }
 }
